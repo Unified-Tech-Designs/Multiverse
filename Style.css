@@ -1,0 +1,171 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8cm;
+    color: #666;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+/*
+fixed = Parallax
+Scroll = normal
+*/
+
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url('fox-forest-minimalism-artwork-es-1920x1080.jpg');
+    min-height: 100%;
+}
+
+
+.pimg2{
+    background-image: url('thumb1920.png');
+    min-height: 400px;
+}
+
+
+.pimg3{
+    background-image: url('isaac_foster_by_ryuzaky_kun-dcj6cp6.png');
+    min-height: 400px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px   80px;
+}
+
+.section-light{
+    background-color: #32064bb2;
+    color: rgb(250, 253, 253)
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ptext{
+    position:absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:  #ddd;
+    font-size: 27;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext  .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.ptext  .border .trans{
+    background-color: transparent;
+}
+
+@media(max-width:560px){
+    .pimg1, .pimg2, .pimg3{
+        background-attachment:  scroll;
+    }
+}
+body {
+    font-family: 'Arial', serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #32064bb2;
+    overflow: hidden;
+    height: 63px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0px 20px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 30px;
+}
+.navbar  .Login{
+    float: right;
+}
+
+
+.navbar ul {
+    margin: 1px 0 0 0;
+    list-style: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(97, 39, 131);
+    color: #864be6
+}
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #32064bb2;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #cccccc;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover {
+    color: rgb(66, 111, 129);
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left 0.5s;
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+@media(max-width:568px) {
+    .navbar-nav (display: none)
+}
+
+@media(min-width:568px) 
+{
+.navbar-nav display: none{
+
+    }
+}
