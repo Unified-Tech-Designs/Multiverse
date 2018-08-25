@@ -222,7 +222,7 @@ h3 {
 }
 
 ::placeholder {
-    color: rgba(0, 0, 0, .5)
+    color: rgb(235, 235, 235)
 }
 
 .inputBox {
@@ -250,7 +250,7 @@ h3 {
 }
 
 .loginBox a {
-    color: #262626;
+    color: #b9b3b3;
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
