@@ -78,8 +78,8 @@ Scroll = normal
 @media(max-width:560px){
     .pimg1, .pimg2, .pimg3{
         background-attachment:  scroll;
-    }
-}
+    }   
+} 
 
 .navbar {
     background-color: #32064bb2;
@@ -155,7 +155,9 @@ Scroll = normal
     width: 100%;
 }
 
-
+@media(max-width:568px) {
+    .navbar-nav {display: none}
+}
 
 .loginBox {
     position: absolute;
@@ -186,7 +188,7 @@ Scroll = normal
     margin-bottom: 20px;
 }
 
-.h3 {
+h3 {
     margin: 0;
     padding: 0 0 20px;
     color: #ffffff;
@@ -199,7 +201,7 @@ Scroll = normal
     border-bottom: 2px solid #262626;
     outline: none;
     height: 40px;
-    color: #262626;
+    color: #ffffff;
     background: transparent;
     font-size: 16px;
     padding-left: 20px;
@@ -230,10 +232,11 @@ Scroll = normal
 .inputBox span {
     position: absolute;
     top: 10px;
-    color: #262626;
+    color: #cecece;
 }
 
 .loginBox input[type='submit'] {
+    width: 90%;
     border: none;
     outline: none;
     margin: 20px 0 20px 0;
@@ -241,7 +244,7 @@ Scroll = normal
     height: 40px;
     font-size: 20px;
     background: #591586a4;
-    color: #ccc;
+    color: rgb(255, 255, 255);
     border-radius:  50px;
     cursor: pointer;
 }
