@@ -1,0 +1,23 @@
+{
+  "name": "parallax_responsive",
+  "version": "1.0.0",
+  "description": "Training Site",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unified-Tech-Designs/Multiverse.git"
+  },
+  "author": "Warsame Abdirazak Warsame",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Unified-Tech-Designs/Multiverse/issues"
+  },
+  "homepage": "https://github.com/Unified-Tech-Designs/Multiverse#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
